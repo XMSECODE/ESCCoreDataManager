@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		048186F62279884C0089719F /* Person+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F047D0E71F2994E200F08D0A /* Person+CoreDataClass.m */; };
 		F047D0CB1F298C0D00F08D0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F047D0CA1F298C0D00F08D0A /* main.m */; };
 		F047D0CE1F298C0D00F08D0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F047D0CD1F298C0D00F08D0A /* AppDelegate.m */; };
 		F047D0D11F298C0D00F08D0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F047D0D01F298C0D00F08D0A /* ViewController.m */; };
@@ -32,10 +33,10 @@
 		F047D0E01F298E2200F08D0A /* ESCCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESCCoreDataManager.h; sourceTree = "<group>"; };
 		F047D0E11F298E2200F08D0A /* ESCCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESCCoreDataManager.m; sourceTree = "<group>"; };
 		F047D0E41F2994A100F08D0A /* Person.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Person.xcdatamodel; sourceTree = "<group>"; };
-		F047D0E61F2994E200F08D0A /* Person+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Person+CoreDataClass.h"; path = "../Person+CoreDataClass.h"; sourceTree = "<group>"; };
-		F047D0E71F2994E200F08D0A /* Person+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Person+CoreDataClass.m"; path = "../Person+CoreDataClass.m"; sourceTree = "<group>"; };
-		F047D0E81F2994E200F08D0A /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Person+CoreDataProperties.h"; path = "../Person+CoreDataProperties.h"; sourceTree = "<group>"; };
-		F047D0E91F2994E200F08D0A /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Person+CoreDataProperties.m"; path = "../Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		F047D0E61F2994E200F08D0A /* Person+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataClass.h"; sourceTree = "<group>"; };
+		F047D0E71F2994E200F08D0A /* Person+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataClass.m"; sourceTree = "<group>"; };
+		F047D0E81F2994E200F08D0A /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		F047D0E91F2994E200F08D0A /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +50,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		048186F5227988390089719F /* ESCCoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				F047D0E01F298E2200F08D0A /* ESCCoreDataManager.h */,
+				F047D0E11F298E2200F08D0A /* ESCCoreDataManager.m */,
+			);
+			path = ESCCoreDataManager;
+			sourceTree = "<group>";
+		};
+		048186F7227988510089719F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F047D0E31F2994A100F08D0A /* Person.xcdatamodeld */,
+				F047D0E61F2994E200F08D0A /* Person+CoreDataClass.h */,
+				F047D0E71F2994E200F08D0A /* Person+CoreDataClass.m */,
+				F047D0E81F2994E200F08D0A /* Person+CoreDataProperties.h */,
+				F047D0E91F2994E200F08D0A /* Person+CoreDataProperties.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		F047D0BD1F298C0D00F08D0A = {
 			isa = PBXGroup;
 			children = (
@@ -70,15 +92,10 @@
 			children = (
 				F047D0CC1F298C0D00F08D0A /* AppDelegate.h */,
 				F047D0CD1F298C0D00F08D0A /* AppDelegate.m */,
+				048186F7227988510089719F /* Model */,
+				048186F5227988390089719F /* ESCCoreDataManager */,
 				F047D0CF1F298C0D00F08D0A /* ViewController.h */,
 				F047D0D01F298C0D00F08D0A /* ViewController.m */,
-				F047D0E01F298E2200F08D0A /* ESCCoreDataManager.h */,
-				F047D0E11F298E2200F08D0A /* ESCCoreDataManager.m */,
-				F047D0E31F2994A100F08D0A /* Person.xcdatamodeld */,
-				F047D0E61F2994E200F08D0A /* Person+CoreDataClass.h */,
-				F047D0E71F2994E200F08D0A /* Person+CoreDataClass.m */,
-				F047D0E81F2994E200F08D0A /* Person+CoreDataProperties.h */,
-				F047D0E91F2994E200F08D0A /* Person+CoreDataProperties.m */,
 				F047D0D21F298C0D00F08D0A /* Main.storyboard */,
 				F047D0D51F298C0D00F08D0A /* Assets.xcassets */,
 				F047D0D71F298C0D00F08D0A /* LaunchScreen.storyboard */,
@@ -137,6 +154,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -173,6 +191,7 @@
 				F047D0CE1F298C0D00F08D0A /* AppDelegate.m in Sources */,
 				F047D0CB1F298C0D00F08D0A /* main.m in Sources */,
 				F047D0EC1F2994FA00F08D0A /* Person+CoreDataProperties.m in Sources */,
+				048186F62279884C0089719F /* Person+CoreDataClass.m in Sources */,
 				F047D0E51F2994A100F08D0A /* Person.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,6 +351,7 @@
 				F047D0DF1F298C0D00F08D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
